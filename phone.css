@@ -1,0 +1,333 @@
+@media (max-width:1600px) {
+    /* i thik it good no need to change in 1600px */
+}
+@media (max-width:1366px) {
+
+  
+}@media (max-width:1180px) {
+  
+  
+}
+@media (max-width:1124px) {
+  
+  
+}
+@media (max-width:900px) {   /* section 4 ma video na text small lage to badalje */
+  nav{
+    .logo{
+      img{
+        width: 10vw;
+      }
+    }
+  }
+  .hero{
+
+    .left{
+      .top{
+        font-size: 2.2vw;
+        background-color: darkcyan;
+        /* padding: 10vh 15vw; */
+      }
+    }
+    #bg-video {
+      top: 1%;
+      height: 80vh;
+      /* background-color: darkblue; */
+  }
+  .right{
+    .text{
+      font-size: 2vw;
+      a{
+        font-size: 2vw;
+        i{
+          font-size: 2vw;
+        }
+      }
+    }
+  }
+  }
+  .scroller{
+    height: 20vh;
+    /* background-color: darkcyan; */
+  }
+  .section2{
+    height: 80vh;
+    /* padding: 10vh 2vw; */
+    /* padding: ; */
+    /* background-color: darkcyan; */
+    .container{
+      flex-direction: column;
+      .left{
+        width: 100%;
+        margin-top: 1rem;
+        video{
+          width: 80%;
+          /* height: 70%; */
+        }
+      }
+      .right{
+        padding: 10vh 2vw;
+        width: 100%;
+        height: 60%;
+        /* background-color: darkblue; */
+        h3{
+          font-size: 4vw;
+        }
+        .button>a{
+          font-size: 1.8vw;
+        }
+      }
+    }
+  }
+  .section3{
+    /* background-color: salmon; */
+    .left{
+      p{
+        font-size: 1.3vw;
+      }
+    }
+    .right{
+      h4{
+        font-size: 1.5vw;
+      }
+      h1{
+        font-size: 10vw;
+      }
+    }
+  }
+  .section4{
+    gap: 1.5vw;
+    .box{
+      height: 80%;
+      border-radius: 40px;
+      /* width: ; */
+
+    }
+  }
+}
+
+@media (max-width:778px) {
+  .hero{
+
+    
+    #bg-video {
+      top: 1%;
+      height: 80vh;
+      right: 15rem;
+      /* background-color: darkblue; */
+      
+  }
+  .left{
+    .bottom{
+      h4{
+        font-size: 1.3vw;
+      }
+      h1{
+        font-size: 2.8vw;
+      }
+    }
+  }
+  
+  }
+  .section2{
+    height: 100vh;
+    /* padding: 10vh 2vw; */
+    /* padding: ; */
+    /* background-color: darkcyan; */
+    .container{
+      flex-direction: column;
+      .left{
+        width: 100%;
+        margin-top: 1rem;
+        video{
+          width: 80%;
+          /* height: 70%; */
+        }
+      }
+      .right{
+        padding: 10vh 2vw;
+        width: 100%;
+        height: 60%;
+        /* background-color: darkblue; */
+        h3{
+          font-size: 4vw;
+        }
+        .button>a{
+          font-size: 1.8vw;
+        }
+      }
+    }
+  }
+  .section3{
+    .left{
+      /* gap: 1.7vh; */
+      p{
+        font-size: 1.6vw;
+        br{
+          display: none;
+        }
+      }
+      button>a{
+        font-size: 1.5vw;
+      }
+    }
+    .right{
+      h4{
+        font-size: 1.5vw;
+      }
+      h1{
+        font-size: 10vw;
+      }
+    }
+  }
+  .section4{
+    gap: 1.5vw;
+    height: 65vh;
+    padding: 0.1vh 2vw;
+    .box{
+      height: 80%;
+      border-radius: 40px;
+      /* width: ; */
+      
+    }
+  }
+  
+}
+
+@media (max-width:550px) {
+  .hero{
+    flex-direction: column;
+    /* background-color: darkgoldenrod; */
+    .left{
+      width: 100%;
+      /* background-color: darkblue; */
+      .top{
+        font-size: 5vw;
+        background-color: darkcyan;
+        /* padding: 10vh 15vw; */
+      }
+      .bottom{
+        h4{
+          font-size: 3vw;
+        }
+        h1{
+          font-size: 5vw;
+        }
+      }
+    }
+    #bg-video {
+      top: 4%;
+      height: 70vh;
+      right: 13rem;
+      /* width: 100%; */
+      /* background-color: darkblue; */
+  }
+  .right{
+    background-color: aquamarine;
+    width: 100%;
+    display: none;
+    .text{
+      font-size: 10vw;
+      a{
+        font-size: 10vw;
+        i{
+          font-size:4vw;
+        }
+      }
+    }
+  }
+  }
+  .scroller{
+    height: 10vh;
+    /* background-color: salmon; */
+  }
+  .section2{
+    height: 100vh;
+    /* padding: 10vh 2vw; */
+    /* padding: ; */
+    /* background-color: darkcyan; */
+    padding: 6vh 2vw;
+
+    .container{
+      flex-direction: column;
+      .left{
+        width: 100%;
+        margin-top: 1rem;
+        video{
+          width: 80%;
+          /* height: 70%; */
+        }
+      }
+      .right{
+        padding: 1vh 2vw;
+        width: 100%;
+        height: 60%;
+        /* background-color: darkblue; */
+        h3{
+          font-size: 4.3vw;
+        }
+        .button>a{
+          font-size: 2.8vw;
+        }
+      }
+    }
+  }
+  .section3{
+    flex-direction: column;
+    /* background-color: saddlebrown  ; */
+    height: 60vh;
+    .left{
+      /* gap: 1.7vh; */
+      width: 100%;
+      p{
+        font-size: 4vw;
+        br{
+          display: none;
+        }
+      }
+      button>a{
+        font-size: 2.5vw;
+      }
+    }
+    .right{
+      width: 100%;
+
+      h4{
+        font-size: 4.5vw;
+      }
+      h1{
+        margin-top: 0;
+        font-size: 10vw;
+      }
+    }
+  }
+
+  .section4{
+    gap: 0.5vw;
+    min-height: 100vh;
+    padding: 0.1vh 2vw;
+    /* overflow-y: scroll; */
+    width: 100%;
+    /* background-color: sandybrown; */
+    flex-wrap: wrap;
+    .box{
+      height: 30%;
+      border-radius: 40px;
+      width: 500px;
+      border-radius: 30px;
+      padding: 2vh 4vw;
+      video{
+        height: 75%;
+        background-color: sandybrown;
+      }
+      button{
+        font-size: 3.5vw;
+      }
+      h2{
+        font-size: 4.2vw;
+      }
+      
+    }
+   
+  }
+}
